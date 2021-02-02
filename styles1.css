@@ -1,0 +1,39 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+div.hero{
+    
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0) 43.49%), url("./resources/img/patron-1.svg");
+    background-repeat: repeat;
+    background-size: 100px;
+}
+
+header{
+    min-width: 208px;
+}
+main{
+    width: auto;
+}
+section{
+    width:100%;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.layout-flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/*
+- 1 Posicionamiento
+- 2 Modelo de caja
+- 3 Tipografia
+- 4 visuales
+- 5 otros
+*/
